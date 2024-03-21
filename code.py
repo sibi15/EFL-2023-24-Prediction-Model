@@ -51,7 +51,6 @@ for i in data['Match']:
     start+=1
     
 data['Opponent Possession'] = 100 - data['Possession, %']
-
 data = data[['Date','Team','Opponent Team','H/A','Goals','Conceded goals','Possession, %','Opponent Possession','Duration']]
 data = data.rename(columns={'Conceded goals':'Goals Conceded','Possession, %':'Possession'})
 
@@ -213,11 +212,8 @@ prediction_23_24['Matches'] = 1
 prediction_23_24 = prediction_23_24.groupby(['Team'])['Matches','W','Goals','Goals Conceded','PTs'].sum().reset_index()
 prediction_23_24 = prediction_23_24.rename(columns={'Matches':'MP','W':'W1','Goals':'GF','Goals Conceded':'GA'})
 prediction_23_24['Pyth'] = prediction_23_24['GF']**2/(prediction_23_24['GF']**2 + prediction_23_24['GA']**2)
-prediction_23_24
-
-prediction_23_24['X_PTs'] = prediction_23_24['PTs'] + prediction_23_24['Pyth']*54   # 18 remaining games
+prediction_23_24['X_PTs'] = prediction_23_24['PTs'] + prediction_23_24['Pyth']*54
 prediction_23_24['X_PTs'] = prediction_23_24['X_PTs'].astype(int)
-#prediction_23_24['X_PTs'] = prediction_23_24['Pyth']*138
 prediction_23_24['MP'] = 46
 prediction_23_24 = prediction_23_24[['Team','MP','X_PTs','Pyth']]
 prediction_23_24.sort_values(by='X_PTs', ascending=False, inplace=True)
