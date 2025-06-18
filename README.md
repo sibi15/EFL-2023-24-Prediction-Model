@@ -18,4 +18,5 @@ Key Highlights:
 
 Published Article: https://www.samford.edu/sports-analytics/fans/2024/How-reliable-is-Pythagorean-Expectation-to-predict-the-result-of-the-202324-EFL-Soccer-Championship
 
-Outcome: Demonstrated how Pythagorean Expectation can effectively approximate team performance over an EFL season, and developed a predictive tool applicable mid-season for forecasting.
+Outcome:
+Demonstrated how Pythagorean Expectation can effectively approximate team performance over an EFL season, and developed a predictive tool applicable mid-season for forecasting.
