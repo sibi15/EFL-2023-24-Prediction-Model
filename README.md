@@ -3,7 +3,7 @@ Using historical match data and the Pythagorean Expectation formula, this projec
 
 Tools & Technologies: Python, Pandas, NumPy, StatsModels, Excel, Data Visualization (Matplotlib & Seaborn)
 
-Highlights:
+Key Highlights:
 - Modeled season standings by calculating expected points using goals scored and conceded
 - Parsed and cleaned multi-season data from 2019–2024 across 38+ EFL teams
 - Applied statistical adjustments for point deductions and administrative changes
