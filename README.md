@@ -1,13 +1,22 @@
 # Pythagorean Expectation and Prediction of 2023/24 EFL Championship Results
-Using historical match data and the Pythagorean Expectation formula, this project aimed to forecast the 2023/24 EFL Championship season outcomes, supporting better strategic decisions for clubs and analysts. The model was validated against real results from past seasons to assess prediction accuracy. This project was conducted as part of an association with the Center for Sports Analytics at Samford University.
+This project evaluates whether goal statistics alone, via the Pythagorean Expectation formula, can predict final standings in the EFL Championship. By comparing predicted vs actual results across multiple exponents, it gauges the method’s strength and its blind spots. The model was validated against historical data to assess reliability across seasons.
 
-Tools & Technologies: Python, Pandas, NumPy, StatsModels, Excel, Data Visualization (Matplotlib & Seaborn)
+Tools & Libraries Used
+- Python: Core programming language for all computation and data processing
+- Pandas: Data manipulation, transformation, and cleaning
+- NumPy: Array operations and mathematical functions
+- StatsModels: Statistical modeling and regression support
+- Matplotlib & Seaborn: Data visualization and exploratory plotting
+- Excel: For manual cross-verification of results and point deductions
 
-Key Highlights:
+Key Highlights
 - Modeled season standings by calculating expected points using goals scored and conceded
 - Parsed and cleaned multi-season data from 2019–2024 across 38+ EFL teams
 - Applied statistical adjustments for point deductions and administrative changes
 - Validated Pythagorean model's strength by comparing real and expected standings
 - Built predictive framework for ongoing 2023/24 season based on past season trends
 
-Outcome: Demonstrated how Pythagorean Expectation can effectively approximate team performance over an EFL season, and developed a predictive tool applicable mid-season for forecasting.
+Published Article: https://www.samford.edu/sports-analytics/fans/2024/How-reliable-is-Pythagorean-Expectation-to-predict-the-result-of-the-202324-EFL-Soccer-Championship
+
+Outcome:
+Demonstrated how Pythagorean Expectation can effectively approximate team performance over an EFL season, and developed a predictive tool applicable mid-season for forecasting.
