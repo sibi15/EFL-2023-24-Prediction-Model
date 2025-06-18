@@ -9,7 +9,7 @@ Tools & Libraries Used:
 - Matplotlib & Seaborn: Data visualization and exploratory plotting
 - Excel: For manual cross-verification of results and point deductions
 
-Key Highlights:
+Key Features:
 - Modeled season standings by calculating expected points using goals scored and conceded
 - Parsed and cleaned multi-season data from 2019–2024 across 38+ EFL teams
 - Applied statistical adjustments for point deductions and administrative changes
